@@ -1,0 +1,13 @@
+[package]
+name = "gsx_zed"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/gsx.rs"
+
+[dependencies]
+zed_extension_api = "0.6.0"

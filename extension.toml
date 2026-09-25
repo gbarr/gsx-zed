@@ -1,0 +1,15 @@
+id = "gsx"
+name = "GSX"
+version = "0.0.1"
+schema_version = 1
+authors = ["Graham Barr <gmbarr@gmail.com>"]
+description = "GSX syntax highlighting support for Zed."
+repository = "https://github.com/gbarr/gsx-zed"
+
+[grammars.gsx]
+repository = "https://github.com/gsxhq/tree-sitter-gsx"
+rev = "400f54906ba1442aeb4ef93a9405d74e2e42e51d"
+
+[language_servers.gsx]
+languages = ["GSX"]
+name = "gsx"

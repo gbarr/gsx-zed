@@ -1,0 +1,3 @@
+name = "GSX"
+grammar = "gsx"
+path_suffixes = ["gsx"]
